@@ -1,6 +1,4 @@
-# Final Project
-
-# Project Title : Connectopia
+# Final Project : Connectopia
 
 ## Overview
 
