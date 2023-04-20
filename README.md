@@ -39,4 +39,4 @@ Connectopia seeks to help users find creative ways to present themselves beyond 
 
 ## Wireframe
 
-[https://www.figma.com/community/file/1230745108031357403](https://www.figma.com/community/file/1230745108031357403)
+![prototype](/documentation/Connectopia_prototype.pdf)
