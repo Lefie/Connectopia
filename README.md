@@ -39,4 +39,4 @@ Connectopia seeks to help users find creative ways to present themselves beyond 
 
 ## Wireframe
 
-[prototype](/docs/Connectopia_prototype.pdf)
+[prototype](/docs/prototype.pdf)
