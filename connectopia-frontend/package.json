@@ -18,6 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://lefie.github.io./Connectopia",
   "eslintConfig": {
     "extends": [
       "react-app",
