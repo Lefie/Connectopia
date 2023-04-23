@@ -4,7 +4,7 @@ import Signin from "../components/Signin";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <Navbar />
       <Signin />
 
