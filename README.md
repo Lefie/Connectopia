@@ -15,28 +15,28 @@ Connectopia seeks to help users find creative ways to present themselves beyond 
 
 ### ******************************Basic Skeleton******************************
 
-![p1.jpg](/docs/p1.jpg)
+![p1.jpg](/documentation/p1.jpg)
 
-![p2.jpg](/docs/p2.jpg)
+![p2.jpg](/documentation/p2.jpg)
 
-![p3.jpg](/docs/p3.jpg)
+![p3.jpg](/documentation/p3.jpg)
 
 ### Pages
 
-![p4.jpg](/docs/p4.jpg)
+![p4.jpg](/documentation/p4.jpg)
 
-![p5.jpg](/docs/p5.jpg)
+![p5.jpg](/documentation/p5.jpg)
 
-![p6.jpg](/docs/p6.jpg)
+![p6.jpg](/documentation/p6.jpg)
 
-![p7.jpg](/docs/p7.jpg)
+![p7.jpg](/documentation/p7.jpg)
 
-![p8.jpg](/docs/p8.jpg)
+![p8.jpg](/documentation/p8.jpg)
 
 ## Sitemap
 
-![Screen Shot 2023-04-19 at 10.38.48 PM.png](/docs/sitemap.png)
+![Screen Shot 2023-04-19 at 10.38.48 PM.png](/documentation/sitemap.png)
 
 ## Wireframe
 
-[prototype](/docs/prototype.pdf)
+[prototype](/documentation/prototype.pdf)
