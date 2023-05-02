@@ -7,8 +7,6 @@ const Home = () => {
     <div className="flex flex-col">
       <Navbar />
       <Signin />
-
-     
     </div>
   );
 };
