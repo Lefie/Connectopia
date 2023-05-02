@@ -20,12 +20,12 @@ const Navbar = () => {
         </a>
 
         <div className="flex justify-center gap-9 p-3">
-        <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Home</div>
+        <Link to="/main"> <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Home</div></Link>
             <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Meetups</div>
             <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Opportunities</div>
             <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Network</div>
             <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Social</div>
-            <img src="https://avatars3.githubusercontent.com/u/11801238?v=4" class="h-12 mr-3 rounded-full" alt="Profile Logo" />
+            <Link to="/profile"><img src="https://avatars3.githubusercontent.com/u/11801238?v=4" class="h-12 mr-3 rounded-full" alt="Profile Logo" /></Link>
 
 
 

@@ -28,9 +28,11 @@ const Signup = () => {
   </div>
 
   <div className="flex flex-col items-center pr-4 mt-5">
+  <Link to="/profile">
   <button className="bg-black hover:bg-gray-700 w-[12em] text-white font-bold py-2 px-4 rounded" type="button">
         Sign up
     </button>
+    </Link>
 
     <div className="mt-[1em]" > Welcome! </div>
 

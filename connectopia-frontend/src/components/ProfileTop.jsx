@@ -106,9 +106,9 @@ const ProfileTop = () => {
             <div class="flex flex-col items-center border border-black shadow-xl h-48 w-48 justify-center">
               <h1 class="font-bold text-xl ">Weather App </h1>
               <li class=" p-2 text-sm">
-                {" "}
+                
                 Used React Framework and developed components following design
-                principles.{" "}
+                principles.
               </li>
               <p class="font-semibold">March 2023 </p>
             </div>
@@ -116,9 +116,9 @@ const ProfileTop = () => {
             <div class=" flex flex-col items-center border border-black shadow-xl h-48 w-48 justify-center">
               <h1 class="font-bold text-xl ">Online Market Place </h1>
               <li class=" p-2 text-sm">
-                {" "}
+                
                 Used Java Spring Framework and developed RESTful API for an
-                online market place.{" "}
+                online market place.
               </li>
               <p class="font-semibold">Aril 2023 </p>
             </div>

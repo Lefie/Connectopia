@@ -34,13 +34,16 @@ const Signin = () => {
         />
       </div>
 
+     
       <div class="flex flex-col items-center pr-4 mt-5">
+      <Link to="/profile">
         <button
           class="bg-black hover:bg-gray-700 w-[12em] text-white font-bold py-2 px-4 rounded"
           type="button"
         >
           Sign In
         </button>
+        </Link>
 
         <Link to="/register">
           <button
