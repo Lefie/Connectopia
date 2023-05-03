@@ -1,5 +1,6 @@
 import { React } from "react";
 import ProfileNav from "../components/ProfileNav";
+import MsgCard from "../components/MsgCard";
 
 const Main = () => {
 
@@ -10,7 +11,7 @@ const Main = () => {
     <h1 class="mb-5 pl-4 text-lg font-bold ">Share Something</h1>
 
     <form>
-      <div class="mb-4 w-72 rounded-lg border border-gray-200 bg-gray-50 dark:border-gray-600 dark:bg-gray-700">
+      <div class="mb-4 w-[15rem] rounded-lg border border-gray-200 bg-gray-50 dark:border-gray-600 dark:bg-gray-700">
         <div class="flex items-center justify-between border-b px-3 py-2 dark:border-gray-600">
           <div class="flex flex-wrap items-center divide-gray-200 dark:divide-gray-600 sm:divide-x">
             <div class="flex items-center space-x-1 sm:pr-4">
@@ -73,7 +74,7 @@ const Main = () => {
             <p> Software Engineer, Google</p>
             <p class="text-sm text-gray-700"> 14:23</p>
             </div>
-        </div>
+    </div>
 
         <div class="p-3 mt-5 border border-black h-72 w-72 bg-white">
           <p>Congratulations to the 2022-23 
@@ -81,13 +82,22 @@ const Main = () => {
           </div>
     
   </div>
+
+  <MsgCard 
+  name={"Lin May"} 
+  src="https://i.imgur.com/1bX5QH6.jpg"
+  msg="Hi! I am happy to be here" 
+  jobTitle="Creative Writing Professor, UCLA "
+  time="14:23"/>
+
+  
   
   </div>
 
   
 
 
-  <div class="mr-14 mb-5 mt-24 flex h-96 w-3/12 flex-col items-center bg-yellow-100 p-4 border border-black rounded-2xl">
+  <div class="mr-14 mb-5 mt-24 flex h-96 w-3/12 flex-col items-center bg-yellow-100 p-4 border border-black rounded-2xl overflow-auto">
   <h1 class="text-2xl font-bold"> Trending </h1>
   <div class="flex flex-row gap-3 mt-3">
     <button class="bg-transparent hover:bg-gray-500 text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded">
@@ -107,6 +117,7 @@ const Main = () => {
 </div>
   
   </div>
+  
 </div>
 
         
