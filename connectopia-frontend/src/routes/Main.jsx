@@ -87,8 +87,8 @@ const Main = () => {
   name={"Lin May"} 
   src="https://i.imgur.com/1bX5QH6.jpg"
   msg="Hi! I am happy to be here" 
-  jobTitle="Creative Writing Professor, UCLA "
-  time="14:23"/>
+  jobTitle="Creative Writing Professor, USC "
+  time="14:26"/>
 
   
   

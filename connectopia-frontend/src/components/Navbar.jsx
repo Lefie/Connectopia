@@ -18,10 +18,9 @@ const Navbar = () => {
         </a>
 
         <div className="flex justify-center gap-9 p-3">
-            <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Meetups</div>
-            <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Opportunities</div>
-            <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Network</div>
-            <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Social</div>
+           <Link to="/meetup"> <div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Meetups</div></Link>
+           <Link to="/opportunities"><div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Opportunities</div></Link>
+        <Link to="/network"><div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Connect</div></Link>
 
         </div>
 

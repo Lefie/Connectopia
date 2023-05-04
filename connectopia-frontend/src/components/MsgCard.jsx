@@ -1,7 +1,7 @@
 import { React } from "react";
 
 const MsgCard = (props) => {
-    const src1 = ""
+    
 
     return(
     <div class="flex flex-col items-center border border-black h-96 w-96 p-5 rounded-2xl">
