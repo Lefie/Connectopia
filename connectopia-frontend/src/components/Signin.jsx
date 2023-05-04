@@ -9,7 +9,7 @@ const Signin = () => {
           className="block text-gray-700 text-sm font-bold p-3 mb-3"
           for="email"
         >
-          {" "}
+        
           phone or email{" "}
         </label>
         <input
@@ -24,7 +24,7 @@ const Signin = () => {
           className="block text-gray-700 text-sm font-bold p-3 mb-3 pl-[3em]"
           for="password"
         >
-          {" "}
+          
           password{" "}
         </label>
         <input

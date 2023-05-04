@@ -40,3 +40,24 @@ Connectopia seeks to help users find creative ways to present themselves beyond 
 ## Wireframe
 
 [prototype](/documentation/prototype.pdf)
+
+## Installation of React and Tailwind CSS
+![Install](/documentation/install0.png)
+![Install](/documentation/install1.png)
+![Install](/documentation/install2.png)
+![Install](/documentation/install3.png)
+![Install](/documentation/install4.png)
+
+## Project Structure
+![Project Structure](/documentation/projectFolderStructure.png)
+
+## Start
+![App.js](/documentation/app.png)
+App is a component rendered into the root element. This component contains routes to other pages
+
+## Home Page
+
+
+
+
+
