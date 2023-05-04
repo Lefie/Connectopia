@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Link } from "react-router-dom";
 
 const Professionals = (props) => {
     return(<div class="bg-pink-50 flex flex-col items-center border border-black h-96 w-96 p-5 rounded-2xl">
@@ -25,9 +26,11 @@ const Professionals = (props) => {
     <button class="bg-purple-700 hover:bg-orange-300 text-white hover:text-black font-bold py-2 px-4 rounded-full">
     Profile
     </button>
-    <button class="bg-purple-700 hover:bg-orange-300 text-white hover:text-black font-bold py-2 px-4 rounded-full">
+   <Link to="/chat">
+   <button class="bg-purple-700 hover:bg-orange-300 text-white hover:text-black font-bold py-2 px-4 rounded-full">
     Message
     </button>
+   </Link> 
 
         </div>
 

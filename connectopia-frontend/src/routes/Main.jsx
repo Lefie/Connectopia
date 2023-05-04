@@ -1,8 +1,11 @@
 import { React } from "react";
 import ProfileNav from "../components/ProfileNav";
 import MsgCard from "../components/MsgCard";
+import { useState,useEffect } from 'react';
 
 const Main = () => {
+
+  const [isInterest,setInterest] = useState(true);
 
     return(<div>
          <ProfileNav />
@@ -66,19 +69,18 @@ const Main = () => {
     <div class="flex flex-row gap-4 justify-around">
        <img
                 class="md relative h-24 w-24 rounded-full"
-                src="https://avatars3.githubusercontent.com/u/11801238?v=4"
+                src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80"
                 alt=""
               /> 
           <div class="flex flex-col items-center">
-            <h1 class="text-xl font-bold"> Liam Cooper </h1>
-            <p> Software Engineer, Google</p>
-            <p class="text-sm text-gray-700"> 14:23</p>
+            <h1 class="text-xl font-bold"> Laura Moore </h1>
+            <p> Fashion Model, Actor</p>
+            <p class="text-sm text-gray-700"> 15:23</p>
             </div>
     </div>
 
         <div class="p-3 mt-5 border border-black h-72 w-72 bg-white">
-          <p>Congratulations to the 2022-23 
-#EntrepreneursChallenge Finalists! 🚀 🚀 ! </p>
+          <p>Just got another model gig with DIG #DIGINN ! </p>
           </div>
     
   </div>
@@ -88,7 +90,7 @@ const Main = () => {
   src="https://i.imgur.com/1bX5QH6.jpg"
   msg="Hi! I am happy to be here" 
   jobTitle="Creative Writing Professor, USC "
-  time="14:26"/>
+  time="18:26"/>
 
   
   
@@ -100,21 +102,31 @@ const Main = () => {
   <div class="mr-14 mb-5 mt-24 flex h-96 w-3/12 flex-col items-center bg-yellow-100 p-4 border border-black rounded-2xl overflow-auto">
   <h1 class="text-2xl font-bold"> Trending </h1>
   <div class="flex flex-row gap-3 mt-3">
-    <button class="bg-transparent hover:bg-gray-500 text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded">
+    <button onClick={()=>{setInterest(true)}}  class="bg-transparent hover:bg-gray-500 text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded">
   Interests
 </button> 
 
-<button class=" bg-gray-500 text-white font-semibold py-2 px-4 border border-black hover:border-transparent rounded">
+<button onClick={()=>{setInterest(false)}} class="bg-transparent hover:bg-gray-500 text-black font-semibold hover:text-white py-2 px-4 border border-black hover:border-transparent rounded">
   Industry
 </button>
 
 </div>
+
+{!isInterest && (
 <div class="mt-5 font-sm p-5"> 
-  <li> Reddit to charge AI companies for use of its API</li>
-  <li> Meta begins another round of layoffs as Zuckerberg’s ‘year of efficiency’ continues</li>
-  <li> Technology helps you keep an eye on the crop
-</li>
-</div>
+  <a href="https://www.foxnews.com/tech/reddit-ai-companies-pay-use-of-api"><li class="font-medium text-black hover:underline" > Reddit to charge AI companies for use of its API</li></a>
+  <a href="https://www.nbcnews.com/tech/tech-news/meta-begins-another-layoffs-zuckerbergs-year-efficiency-continues-rcna80407"><li class="font-medium text-black hover:underline"> Meta begins another round of layoffs as Zuckerberg’s ‘year of efficiency’ continues</li></a>
+  <a href="https://www.agriculture.com/news/technology/technology-lets-you-keep-an-eye-on-the-crop"><li class="font-medium text-black hover:underline"> Technology helps you keep an eye on the crop
+</li></a>
+</div>)}
+
+{isInterest && (
+<div class="mt-5 font-sm p-5"> 
+  <a href="https://www.bbc.com/news/uk-england-derbyshire-65424870"><li class="font-medium text-black hover:underline"> Cat steals hundreds of pounds of items from neighbours</li></a>
+  <a href="https://www.cnn.com/2023/05/02/world/sand-cat-research-c2e-spc-intl-scn/index.html"><li class="font-medium text-black hover:underline">These adorable sand cats could be under threat</li></a>
+  <a href="https://www.businessinsider.com/photos-show-cats-serving-as-members-of-the-us-navy-2023-4"><li class="font-medium text-black hover:underline"> Cats once served as vital members of the US Navy. Old photos show these forgotten service felines.</li></a>
+</div>)}
+
   
   </div>
   

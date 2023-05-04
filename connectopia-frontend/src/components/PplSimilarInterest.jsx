@@ -1,4 +1,5 @@
 import { React } from "react";
+import { Link } from "react-router-dom";
 
 const PplSimilarInterest = (props) => {
     console.log(props.hobby.length);
@@ -42,9 +43,10 @@ const PplSimilarInterest = (props) => {
     <button class="bg-sky-700 hover:bg-orange-300 text-white hover:text-black font-bold py-2 px-4 rounded-full">
     Profile
     </button>
-    <button class="bg-sky-700 hover:bg-orange-300 text-white hover:text-black font-bold py-2 px-4 rounded-full">
+    <Link to = "/chat"><button class="bg-sky-700 hover:bg-orange-300 text-white hover:text-black font-bold py-2 px-4 rounded-full">
     Message
     </button>
+    </Link>
 
         </div>
 
