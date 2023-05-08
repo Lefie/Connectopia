@@ -2,7 +2,7 @@
   "name": "connectopia-frontend",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://lefie.github.io/",
+  "homepage": "https://lefie.github.io/Connectopia",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
