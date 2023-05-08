@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Connectopia/static/css/main.1a76b6d0.css",
-    "main.js": "/Connectopia/static/js/main.b2d2a0c3.js",
+    "main.js": "/Connectopia/static/js/main.56ff0fa5.js",
     "static/media/connection.svg": "/Connectopia/static/media/connection.a370f53e70739e2cf707f1f910ec42f3.svg",
     "static/media/profilePic.svg": "/Connectopia/static/media/profilePic.02f8a42175f1f5b87aeb4ac94b75fc41.svg",
     "static/media/connect.svg": "/Connectopia/static/media/connect.904063c719875973113b204107cf37f2.svg",
     "index.html": "/Connectopia/index.html",
     "main.1a76b6d0.css.map": "/Connectopia/static/css/main.1a76b6d0.css.map",
-    "main.b2d2a0c3.js.map": "/Connectopia/static/js/main.b2d2a0c3.js.map"
+    "main.56ff0fa5.js.map": "/Connectopia/static/js/main.56ff0fa5.js.map"
   },
   "entrypoints": [
     "static/css/main.1a76b6d0.css",
-    "static/js/main.b2d2a0c3.js"
+    "static/js/main.56ff0fa5.js"
   ]
 }
