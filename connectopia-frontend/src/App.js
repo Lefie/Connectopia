@@ -9,10 +9,12 @@ import Meetup from "./routes/Meetup";
 import Opportunities from "./routes/Opportunities"
 import Connection from "./routes/Connection"
 import Chat from "./routes/Chat";
+import { BrowserRouter } from "react-router-dom";
 
 
 function App() {
   return (
+    <BrowserRouter>
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -25,6 +27,7 @@ function App() {
         <Route path="/chat" element={<Chat />}/>
       </Routes>
     </Router>
+    </BrowserRouter>
   
   );
 }
