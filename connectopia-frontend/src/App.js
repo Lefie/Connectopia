@@ -9,13 +9,15 @@ import Meetup from "./routes/Meetup";
 import Opportunities from "./routes/Opportunities"
 import Connection from "./routes/Connection"
 import Chat from "./routes/Chat";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+//import {BrowserRouter} from "react-router-dom";
+
 
 
 function App() {
   return (
-    <BrowserRouter>
-    <Router>
+ <HashRouter basename="/">
+    {/* <Router> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/register" element={<Register />}/>
@@ -26,8 +28,8 @@ function App() {
         <Route path="/network" element={<Connection />}/>
         <Route path="/chat" element={<Chat />}/>
       </Routes>
-    </Router>
-    </BrowserRouter>
+    {/* </Router> */}
+  </HashRouter>
   
   );
 }
