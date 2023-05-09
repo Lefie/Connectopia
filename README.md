@@ -38,8 +38,15 @@ Connectopia seeks to help users find creative ways to present themselves beyond 
 ![Screen Shot 2023-04-19 at 10.38.48 PM.png](/documentation/sitemap.png)
 
 ## Wireframe
-
-[prototype](/documentation/prototype.pdf)
+### Prototype
+![wireframe](/documentation/w0.png)
+![wireframe](/documentation/w1.png)
+![wireframe](/documentation/w2.png)
+![wireframe](/documentation/w3.png)
+![wireframe](/documentation/w4.png)
+![wireframe](/documentation/w5.png)
+![wireframe](/documentation/w6.png)
+![wireframe](/documentation/w7.png)
 
 ## Installation of React and Tailwind CSS
 ![Install](/documentation/install0.png)
