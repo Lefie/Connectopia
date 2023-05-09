@@ -60,9 +60,54 @@ Connectopia seeks to help users find creative ways to present themselves beyond 
 
 ## Start
 ![App.js](/documentation/app.png)
-App is a component rendered into the root element. This component contains routes to other pages
+App is the main component rendered into the root element and contains all other components. This component contains routes to other pages.
+
+
 
 ## Home Page
+The home page will serve as a landig page which includes a `signin` element and a `nav bar`.
+![homeComp](/documentation/homeComp.png)
+
+ This signin element will allow users who already have an account to log in, but it also offers new users a way to create an account if they do not already have one. We use a `form` to help take in user inputs.
+
+ ![signinComponent](/documentation/signin.png)
+
+ 
+  The `nav bar` contains a few other routes such as `meetups` or `opportunities` so that new users can get a chance to explore what this web app has to offer.
+![navbar](/documentation/navbar.png)
+
+## Register page
+Once a new user decides to join Connectopia, he or she will be taken to a register page where they will input their information such as phone, email and password to register. This page will also contain a `navbar` component and a `signup` component. Similar to the `signin` component, I also used a `form` to record user inputs.
+
+![registerComp](/documentation/registerComp.png)
+![signupCom](/documentation/signUp.png)
+
+## Profile Page
+Once a user logs in or a new user newly created an account, they will be taken to their own profile page. 
+![profile] (/documentation/profile.png)
+
+This profile page consists of a `navbar` that is specific to users who are logged in - they will see their profile picture and they have a page that shows them social media feed.
+
+![profileNav](/documentation/profNav.png)
+
+ It will also contain a `profileTop` component that shows the structure of the profile page which contains their names, their badges, fun facts about them, their projects and their blog posts.
+
+first of all, we have the profile image and the header background.
+![profile and background](/documentation/background%2Bprofimg.png)
+
+for the about me section, there are two buttons which users can switch between. One button will show the user's hobbies in life, and the other button will show this user's professional life
+![two buttons](/documentation/twoBtns.png)
+
+we define a boolean usestate called `isHuman` . If this is set to true, then show a user's hobbies. if this is set to false, then show a user's professional life. To switch between these two states, we do conditional rendering.
+![useState](/documentation/useState.png)
+![conditionalRender](/documentation/conditionalRender.png)
+
+Lastly, we will include projects and blog posts which are boxes arranged with flex.
+![proj+blog](/documentation/proj%2Bblog.png)
+
+
+
+
 
 
 

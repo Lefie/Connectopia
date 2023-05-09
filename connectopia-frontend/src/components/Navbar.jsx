@@ -23,11 +23,6 @@ const Navbar = () => {
         <Link to="/network"><div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Connect</div></Link>
 
         </div>
-
-
-
-        
-
        
       </div>
     </nav>

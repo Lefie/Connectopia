@@ -26,13 +26,7 @@ const Navbar = () => {
         <Link to="/network"><div className="hover:text-gray-700 active:text-blue-700 hover:cursor-pointer">Connect</div></Link>
         <Link to="/profile"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" class="h-12 w-12 mr-3 rounded-full" alt="Profile Logo" /></Link>
 
-
-
         </div>
-
-
-
-        
 
        
       </div>

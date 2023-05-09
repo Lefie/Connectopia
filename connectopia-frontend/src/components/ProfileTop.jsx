@@ -44,7 +44,7 @@ const ProfileTop = () => {
                   Cat Lover
                 </span>
                 <span class="mr-2 rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">
-                  Coder
+                  Coderusu
                 </span>
                 <span class="mr-2 rounded-full bg-red-100 px-2.5 py-0.5 text-xs font-medium text-red-800 dark:bg-red-900 dark:text-red-300">
                   Gym
