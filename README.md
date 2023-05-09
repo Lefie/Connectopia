@@ -105,6 +105,77 @@ we define a boolean usestate called `isHuman` . If this is set to true, then sho
 Lastly, we will include projects and blog posts which are boxes arranged with flex.
 ![proj+blog](/documentation/proj%2Bblog.png)
 
+## Main Page - Feed
+In the main page, we have 3 sections. 1 section allows users to post their thoughts as part of the social media feed, the middle section is feed from other people, and the last section is news that is related to what a user is interested in. 
+
+### writing a post
+Here we use a form to take a user's input. we also added some icons which allow users to attach an image, add code or emojis.
+![posting](/documentation/posting.png)
+
+### social media feed 
+For the feed, these are cards that contain users' profile picture, job title, timestamp, and something they want to share.
+![feed](/documentation/feedComponent.png)
+
+### Trending news
+For the news section, we have two options again. A user can either see news that is related to their interest, or they can see news that is relevant to their industry. We have another useState called `isInterest`. If it is true, show news related to a user's personal interest, if false, that show industry news.
+![useState](/documentation/useState2.png)
+![news](/documentation/trending.png)
+
+
+## Meetup Page
+The Meetup Page is a page that allows users to explore in person opportunities to meet up with other people either professionally or socially.
+
+### Location 
+This element here is going to show the locaiton of the in-person events 
+![location](/documentation/location.png)
+
+### Networking Events & Social Events Card
+We use a `MeetupCard` component to structure the events card.
+![meetupCard](/documentation/meetupCard.png)
+
+In the meetup page, we only need to pass in the parameter to the components. 
+We have two useStates here `show` and `learn`.
+If `learn` is true, then show description. Otherwise if a user clicks on description, learn will be false. 
+If a user clicks `RSVP`, `show` will be set to true and it will show a succesful box. It disappears if user clicks on the green box.
+![meetupStructure](/documentation/meetupStructure.png)
+
+## Opportunities
+
+Opportunities page include `job opportunities` and `volunteer opportunities` therefore I have created two different cards for these two different components. 
+
+### overall structure of the page
+The overall structure of the page contains a list of job listings and a list of volunteer listings
+![oppostructure](/documentation/oppoStructure.png)
+
+### job listing card
+![jobListing](/documentation/jobListing.png)
+
+### Volunteer listing card 
+![jobListing](/documentation/volunteerListing.png)
+
+
+## Connect 
+For this page, a user can connect with either professionals or make friends with people who share similar interests, or they can join a group chat on a specific interest topic. For this page, we create 3 different cards to support these 3 different use cases. A user can also message the person they see interested.
+
+### Overall structure of the page
+![connectStrucutre](/documentation/connectStructure.png)
+
+### Professional Connection
+![professional Connection](/documentation/professionalCon.png)
+
+### People with Similar Interest 
+![similar people](/documentation/similarPpl.png)
+
+### Chat feature 
+![chat feature](/documentation/chat.png)
+
+### Interest Group
+![interest group](/documentation/interestGroup.png)
+
+
+
+
+
 
 
 
