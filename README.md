@@ -183,7 +183,7 @@ Eventually I found out that we would need to use a `HashRouter` to help fix the 
 Read this [article by stackoverflow](https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages)
 
 
-
+![fixed](/documentation/fixed.png)
 
 
 
