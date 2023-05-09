@@ -172,6 +172,19 @@ For this page, a user can connect with either professionals or make friends with
 ### Interest Group
 ![interest group](/documentation/interestGroup.png)
 
+## Deploy Final Project to Github Pages
+Since this project is purely Frontend and there is no server involved, github pages can actually host a react app.
+
+I follow the steps of this [guide](https://github.com/gitname/react-gh-pages) 
+
+The tutorial was mostly helpful but it did not address the issue that react router and github pages are not compatible, so I kept running into the issues of seeing a blank page.
+
+Eventually I found out that we would need to use a `HashRouter` to help fix the issue mentioned above.
+Read this [article by stackoverflow](https://stackoverflow.com/questions/71984401/react-router-not-working-with-github-pages)
+
+
+
+
 
 
 
